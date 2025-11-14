@@ -11,6 +11,19 @@
 - 希望在离线/自动化场景中操作Apollo；
 - 希望Apollo拥有类似Diamond的能力
 
+## 核心接口一览：
+publishSingle
+getConfig
+deletConfig
+publishAll
+getNamespaceItems
+
+## 后续规划
+v1.0.0 基本的增删改查和发布能力
+v1.1.0 支持批量导入导出
+v1.2.0 异步发布与任务队列
+v2.0.0 RESTful管理服务，可远程调用
+
 ## 开源协议
 本项目采用Apache License2.0开源协议
 你可以自由使用、修改和分发
