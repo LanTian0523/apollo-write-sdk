@@ -12,11 +12,15 @@
 - 希望Apollo拥有类似Diamond的能力
 
 ## 核心接口一览：
-publishSingle
-getConfig
-deletConfig
-publishAll
-getNamespaceItems
+publishSingle 写入（创建/更新）并发布配置项
+
+getConfig 获取指定配置项
+
+deletConfig 删除配置项
+
+publishAll 批量发布配置项
+
+getNamespaceItems 获取整个
 
 ## 后续规划
 v1.0.0 基本的增删改查和发布能力
