@@ -1,4 +1,4 @@
-package org.bluesky.config;
+package com.bluesky.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

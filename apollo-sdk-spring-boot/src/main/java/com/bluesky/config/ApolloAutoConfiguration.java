@@ -1,7 +1,7 @@
-package org.bluesky.config;
+package com.bluesky.config;
 
-import org.bluesky.apollo.core.ApolloClient;
-import org.bluesky.apollo.core.ApolloConfigServiceCore;
+import com.bluesky.apollo.core.ApolloClient;
+import com.bluesky.apollo.core.ApolloConfigServiceCore;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

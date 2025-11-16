@@ -1,4 +1,4 @@
-package org.bluesky.apollo.core;
+package com.bluesky.apollo.core;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
