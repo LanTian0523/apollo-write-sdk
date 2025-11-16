@@ -1,9 +1,11 @@
 package org.bluesky.apollo.core;
 
+import lombok.Data;
 import okhttp3.*;
 
 import java.io.IOException;
 
+@Data
 public class ApolloClient {
     private final OkHttpClient client = new OkHttpClient();
     private final String portalUrl;
