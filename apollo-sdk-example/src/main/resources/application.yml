@@ -1,0 +1,30 @@
+# Apollo SDK 示例应用配置
+server:
+  port: 8080
+
+# Apollo SDK 配置
+apollo:
+  sdk:
+    # Apollo Portal 地址（请替换为实际地址）
+    portal-url: http://localhost:8070
+    # Apollo Portal API Token（请替换为实际 token）
+    token: your-apollo-token-here
+    # 应用配置
+    app-id: apollo-sdk-example
+    env: DEV
+    cluster: default
+    namespace: application
+    operator: apollo-sdk
+
+# 日志配置
+logging:
+  level:
+    com.bluesky.apollo: DEBUG
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+# Spring Boot 配置
+spring:
+  application:
+    name: apollo-sdk-example
